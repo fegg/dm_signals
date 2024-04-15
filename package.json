@@ -1,15 +1,18 @@
 {
-  "name": "@yuerpkg/dm-signals",
+  "name": "dm-signals",
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "test": "mocha lib/test/**/*.test.js --require @babel/register"
+  },
+  "keywords": [
+    "signals"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/fegg/dm_signals.git"
-  },
-  "scripts": {
-    "test": "mocha lib/test/**/*.test.js --require @babel/register"
   },
   "devDependencies": {
     "@babel/core": "^7.24.4",
